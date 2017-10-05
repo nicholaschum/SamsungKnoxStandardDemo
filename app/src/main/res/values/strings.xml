@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sSDK Sample1</string>
+    <string name="enterprise_device_admin">sSDK Sample1</string>
+    <string name="enterprise_device_admin_description">Sample code for writing a DeviceAdmin class.</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="edm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/edm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
