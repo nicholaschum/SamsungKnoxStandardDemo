@@ -26,7 +26,7 @@
 * type arising out
 * of any action taken by you or others related to the sample application and source code.
 */
-package com.samsung.business.sdk.standard.demo1;
+package projekt.samsung.business.sdk.standard.demo1;
 
 import android.app.admin.DeviceAdminReceiver;
 import android.content.Context;

@@ -5,9 +5,11 @@ android {
     buildToolsVersion '26.0.2'
 
     defaultConfig {
-        applicationId "com.samsung.business.sdk.standard.demo1"
+        applicationId "projekt.samsung.business.sdk.standard.demo1"
         minSdkVersion 19
         targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {

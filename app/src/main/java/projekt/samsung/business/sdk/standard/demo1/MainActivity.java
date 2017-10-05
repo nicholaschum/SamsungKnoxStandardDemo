@@ -27,7 +27,7 @@
 * of any action taken by you or others related to the sample application and source code.
 */
 
-package com.samsung.business.sdk.standard.demo1;
+package projekt.samsung.business.sdk.standard.demo1;
 
 import android.app.Activity;
 import android.app.admin.DevicePolicyManager;
@@ -53,12 +53,7 @@ import android.widget.TextView;
  */
 public class MainActivity extends Activity {
 
-    private TextView logView;
-    private Button btn1;
-    private Button btn2;
-
     static final int DEVICE_ADMIN_ADD_RESULT_ENABLE = 1;
-
     // IMPORTANT:
     // You need to get your own Samsung ELM License from seap.samsung.com/developer
     // Replace the string below with your actual ELM License key.
@@ -67,9 +62,11 @@ public class MainActivity extends Activity {
     // Android apps can be decompiled, exposing your unique license key.
     // Normally you will send the ELM License key to the app over an encrypted connection
     // from your solution's cloud service.
-    private final static String demoELMKey = "****Replace this string with your Samsung ELM SDK " +
-            "Licence Key from seap.samsung.com/developer****";
-
+    private final static String demoELMKey =
+            "INSERT ELM KEY IN HERE";
+    private TextView logView;
+    private Button btn1;
+    private Button btn2;
     @SuppressWarnings("FieldCanBeLocal")
     private DevicePolicyManager dpm;
     private EnterpriseDeviceManager edm;

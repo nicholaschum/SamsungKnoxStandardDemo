@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">sSDK Sample1</string>
-    <string name="enterprise_device_admin">sSDK Sample1</string>
+    <string name="app_name">sSDK Sample</string>
+    <string name="enterprise_device_admin">sSDK Sample</string>
     <string name="enterprise_device_admin_description">Sample code for writing a DeviceAdmin class.</string>
+    <string name="toggle_camera">Toggle Camera</string>
+    <string name="activate_admin">Activate Admin</string>
 
 </resources>
