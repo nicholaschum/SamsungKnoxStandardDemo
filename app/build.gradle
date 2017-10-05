@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 26
     buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "com.samsung.business.sdk.standard.demo1"
         minSdkVersion 19
-        targetSdkVersion 21
+        targetSdkVersion 26
     }
 
     buildTypes {
