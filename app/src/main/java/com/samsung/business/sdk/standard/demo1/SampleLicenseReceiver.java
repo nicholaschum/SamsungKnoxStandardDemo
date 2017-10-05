@@ -35,7 +35,7 @@ public class SampleLicenseReceiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		String action = intent.getAction();
-		if (action.equals(EnterpriseLicenseManager.ACTION_LICENSE_STATUS)) {
+		if (action != null && action.equals(EnterpriseLicenseManager.ACTION_LICENSE_STATUS)) {
 			String result = intent.getStringExtra(EnterpriseLicenseManager.EXTRA_LICENSE_STATUS); 
 			showToast(context, "License activation: " + result);
 		}
